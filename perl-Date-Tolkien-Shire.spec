@@ -1,12 +1,12 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Date
 %define	pnam	Tolkien-Shire
-Summary:	Date::Tolkien::Shire perl module
-Summary(pl):	Modu³ perla Date::Tolkien::Shire
+Summary:	Date::Tolkien::Shire - convert dates into the Shire Calendar
+Summary(pl):	Date::Tolkien::Shire - konwersja dat do kalendarza ¦ródziemia
 Name:		perl-Date-Tolkien-Shire
 Version:	1.12
 Release:	2
-License:	GPL
+License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b05bd57758a858354c95a563a1d58ce5
@@ -25,11 +25,11 @@ this date in history -- pulling events from the Lord of the Rings.
 
 %description -l pl
 To jest obiektowo zorientowany modu³ do konwertowania dat na kalendarz
-Shire, jaki zosta³ przedstawiony we "W³adcy pier¶cieni" J. R. R.
-Tolkiena. Zawiera konwersjê czasu w formacie epoch na kalendarz Shire
-(i z powrotem), operatory porównañ oraz metodê do wypisywania
-sformatowanego ci±gu zawieraj±cego to, co zdarzy³o siê w tym czasie -
-zdarzenia z "W³adcy pier¶cieni".
+¦ródziemia, jaki zosta³ przedstawiony we "W³adcy pier¶cieni" J. R. R.
+Tolkiena. Zawiera konwersjê czasu w formacie epoch na kalendarz
+¦ródziemia (i z powrotem), operatory porównañ oraz metodê do
+wypisywania sformatowanego ci±gu zawieraj±cego to, co zdarzy³o siê w
+tym czasie - zdarzenia z "W³adcy pier¶cieni".
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
