@@ -6,8 +6,14 @@ Version:	1.01
 Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
+Group(cs):	Vývojové prostøedky/Programovací jazyky/Perl
 Group(de):	Entwicklung/Sprachen/Perl
+Group(es):	Desarrollo/Lenguajes/Perl
+Group(fr):	Development/Langues/Perl
+Group(ja):	³«È¯/¸À¸ì/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
+Group(pt):	Desenvolvimento/Linguagens/Perl
+Group(ru):	òÁÚÒÁÂÏÔËÁ/ñÚÙËÉ/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Date/Date-Tolkien-Shire-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
@@ -16,9 +22,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This is an object-oriented module to convert dates into the Shire
-Calender as presented in the Lord of the Rings by J. R. R. Tolkien.
-It includes converting epoch time to the Shire Calendar (you can also
-get epoch time back), comparison operators, and a method to print a
+Calender as presented in the Lord of the Rings by J. R. R. Tolkien. It
+includes converting epoch time to the Shire Calendar (you can also get
+epoch time back), comparison operators, and a method to print a
 formatted string containing that does something to the effect of on
 this date in history -- pulling events from the Lord of the Rings.
 
