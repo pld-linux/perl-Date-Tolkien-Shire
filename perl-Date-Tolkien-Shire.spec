@@ -4,8 +4,8 @@
 Summary:	Date::Tolkien::Shire perl module
 Summary(pl):	Modu³ perla Date::Tolkien::Shire
 Name:		perl-Date-Tolkien-Shire
-Version:	1.01
-Release:	6
+Version:	1.11
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
