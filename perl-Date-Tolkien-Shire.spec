@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Date
 %define	pnam	Tolkien-Shire
-Summary:	Date-Tolkien-Shire perl module
-Summary(pl):	Modu³ perla Date-Tolkien-Shire
+Summary:	Date::Tolkien::Shire perl module
+Summary(pl):	Modu³ perla Date::Tolkien::Shire
 Name:		perl-Date-Tolkien-Shire
 Version:	1.01
 Release:	5
