@@ -5,12 +5,12 @@ Summary:	Date::Tolkien::Shire perl module
 Summary(pl):	Modu³ perla Date::Tolkien::Shire
 Name:		perl-Date-Tolkien-Shire
 Version:	1.12
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -34,7 +34,8 @@ zdarzenia z "W³adcy pier¶cieni".
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -48,6 +49,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README CHANGES
-%dir %{perl_sitelib}/Date/Tolkien
-%{perl_sitelib}/Date/Tolkien/Shire.pm
+%dir %{perl_vendorlib}/Date/Tolkien
+%{perl_vendorlib}/Date/Tolkien/Shire.pm
 %{_mandir}/man3/*
