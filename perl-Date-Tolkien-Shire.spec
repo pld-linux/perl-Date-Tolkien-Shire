@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Date
-%define	pnam	Tolkien-Shire
+%define		pdir	Date
+%define		pnam	Tolkien-Shire
 Summary:	Date::Tolkien::Shire - convert dates into the Shire Calendar
 Summary(pl):	Date::Tolkien::Shire - konwersja dat do kalendarza ¦ródziemia
 Name:		perl-Date-Tolkien-Shire
