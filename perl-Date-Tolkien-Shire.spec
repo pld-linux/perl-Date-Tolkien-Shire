@@ -2,7 +2,7 @@
 Summary:	Date-Tolkien-Shire perl module
 Summary(pl):	Modu³ perla Date-Tolkien-Shire
 Name:		perl-Date-Tolkien-Shire
-Version:	0.11
+Version:	1
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
