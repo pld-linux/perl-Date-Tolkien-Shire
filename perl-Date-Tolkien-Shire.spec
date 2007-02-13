@@ -6,7 +6,7 @@
 %define		pdir	Date
 %define		pnam	Tolkien-Shire
 Summary:	Date::Tolkien::Shire - convert dates into the Shire Calendar
-Summary(pl.UTF-8):   Date::Tolkien::Shire - konwersja dat do kalendarza Śródziemia
+Summary(pl.UTF-8):	Date::Tolkien::Shire - konwersja dat do kalendarza Śródziemia
 Name:		perl-Date-Tolkien-Shire
 Version:	1.13
 Release:	1
