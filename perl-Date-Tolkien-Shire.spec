@@ -9,7 +9,7 @@ Summary:	Date::Tolkien::Shire - convert dates into the Shire Calendar
 Summary(pl.UTF-8):	Date::Tolkien::Shire - konwersja dat do kalendarza Śródziemia
 Name:		perl-Date-Tolkien-Shire
 Version:	1.13
-Release:	1
+Release:	2
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
